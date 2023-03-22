@@ -2,9 +2,9 @@ echo "======================="
 echo "Download ngrok"
 echo "======================="
 rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/GCngrok > /dev/null 2>&1
-chmod +x ng.sh
-./ng.sh
+wget -O ng.sh https://raw.githubusercontent.com/et-was/xfce/main/ngrok-app.sh > /dev/null 2>&1
+chmod +x ngrok-app.sh
+./ngrok-app.sh
 clear
 echo "======================="
 echo choose ngrok region
