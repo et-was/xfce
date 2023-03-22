@@ -1,5 +1,5 @@
 echo "Download ngrok"
-wget https://raw.githubusercontent.com/akuhnet/w-colab/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
+wget https://raw.githubusercontent.com/et-was/xfce/main/ngrok-config.sh && chmod +x ngrok-config.sh && ./ngrok-config.sh
 echo Downloading File
 echo "===================================="
 echo "Wait 2 Minutes"
